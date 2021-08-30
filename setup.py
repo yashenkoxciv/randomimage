@@ -11,6 +11,6 @@ setup(
     author='Artem Yaschenko',
     author_email='yashenkoxciv@gmail.com',
     license='MIT',
-    packages=['randomimage'],
+    packages=['randomimage', 'randomimage.*'],
     install_requires=open('requirements.txt', 'r').read().split('\n')
 )
